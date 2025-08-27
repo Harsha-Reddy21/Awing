@@ -68,7 +68,7 @@ def _parse_candidates(serp: dict) -> list:
     return out
 
 
-def find_candidates(job_description: dict, max_results: int = 20) -> list:
+def find_candidates_linkedin(job_description: dict, max_results: int = 20) -> list:
     q = build_query(job_description)
     serp = _serpapi_search(q, num=max_results)
     return _parse_candidates(serp)
@@ -82,7 +82,7 @@ if __name__ == "__main__":
             jd = json.load(f)
     except Exception:
         jd = {}
-    candidates = find_candidates(jd, max_results=20) if jd else []
+    candidates = find_candidates_linkedin(jd, max_results=20) if jd else []
     print(json.dumps({
         "query": build_query(jd) if jd else "",
         "candidates": candidates
