@@ -1,0 +1,49 @@
+{
+    "jobId": "JD-2025-001",
+    "jobTitle": "Software Engineer",
+    "department": "Engineering",
+    "employmentType": "Full-time",
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "remote": true
+    },
+    "experienceRequired": {
+      "minYears": 2,
+      "maxYears": 5
+    },
+    "salaryRange": {
+      "currency": "INR",
+      "min": 800000,
+      "max": 1200000,
+      "payPeriod": "yearly"
+    },
+    "skillsRequired": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs",
+      "Docker"
+    ],
+    "education": "Bachelor's degree in Computer Science or related field",
+    "responsibilities": [
+      "Design, develop, and maintain backend services",
+      "Collaborate with frontend developers and product managers",
+      "Write clean, scalable, and testable code",
+      "Troubleshoot and optimize performance"
+    ],
+    "qualifications": [
+      "Strong problem-solving skills",
+      "Experience with cloud platforms (AWS, GCP, or Azure)",
+      "Familiarity with CI/CD pipelines"
+    ],
+    "postedDate": "2025-08-27",
+    "applicationDeadline": "2025-09-15",
+    "contact": {
+      "name": "HR Team",
+      "email": "careers@example.com",
+      "phone": "+91-9876543210"
+    }
+  }
+  
