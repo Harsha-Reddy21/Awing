@@ -1,0 +1,19 @@
+{
+    "jobId": "JD-2025-001",
+    "jobTitle": "Software Engineer",
+    "experience": 5,
+    "salary": 1200000,
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs",
+      "Docker"
+    ],
+    "education": "Bachelor's degree in Computer Science or related field",
+    "contact": {
+      "email": "harshareddygaddam21@gmail.com",
+      "phone": "+91-9876543210"
+    }
+  }
+  
